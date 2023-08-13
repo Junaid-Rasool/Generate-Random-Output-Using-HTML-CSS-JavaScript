@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My First Project</title>
+        <link rel="stylesheet" href = 'style.css'>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+      <div>
+        <h1>My First Website</h1>
+      </div>
+        <main>
+            <section class="content">
+                <h1 class = "output">Output</h1>
+                <div>
+                  <h3>Meme</h3>
+                <div class="meme-content"> </div>
+                </div>
+                <div>
+                  <h3>Joke</h3>
+                <div class="joke-content"></div>
+                </div>
+                <div>
+                  <h3>Quote</h3>
+                <div class="quote-content"></div>
+              </div>
+                <div>
+                  <h3>Riddle</h3>
+                  <div class="riddle-content"></div>
+                  </div>
+              
+              <div>
+                  <h3>Random Number</h3>
+                  <div class="random-content"></div>
+                  </div>
+              <div>
+                  <h3>Random Alphabet</h3>
+                  <div class="randomAlphabet-content"></div>
+              </div>
+                  </div>
+            </section>
+                
+            <section class="side-bar">
+                <h2>Action</h2>
+                
+                <!-- <a href="project2.html"> <button>Search Prime Minister</button> </a> -->
+                <button onclick="showMeme()"> Show Me A Meme </button>
+                <button onclick="showJoke()"> Tell Me A Joke </button>
+                <button onclick="showQuote()"> Random Quote </button>
+                <button onclick="showRiddle()"> Ready For Riddle </button>
+                <button class="reveal-btn" onclick="revealAnswers()"> Reveal Riddle Answer </button>
+               <button  onclick="showNumber()"> Random Number (0 - 99) </button>
+              <button onclick="showAlphabet()"> Random Alphabet (A-Z | a-b) </button>
+            </section>
+        </main>
+
+        
+    </body>
+</html>
