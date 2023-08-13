@@ -1,0 +1,92 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1c2326;
+    color: #b3973e;
+    font-family: monospace;
+  }
+  img {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .content {
+    width: 70%;
+    position: absolute;
+    left: 25%;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: #b2b1b5;
+  }
+  
+  .side-bar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: fixed;
+    left: 20px;
+    margin-left: 20px;
+    
+  }
+  
+  button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px double #b231b5;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #b2b1b5;
+    
+    
+  }
+  
+  button:hover {
+    color: yellow;
+    background-color: green;
+  }
+  
+  .reveal-btn {
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  .reveal-btn:hover {
+    color: red;
+    background-color: #b2b1b5;
+  }
+  
+  .output {
+    padding: 5px;
+    color: #b3973e;
+  }
+  
+  p {
+    color: #b3973e;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  #imgBtn button {
+    position: absolute;
+    right: 20px;
+  }
+
+
+  div h1 {
+    background-color: #505c64;
+    text-align: center;
+    color: azure;
+    margin: 0;
+    height: 50px;
+    width: 100vw;
+    padding: 10px;
+  }
